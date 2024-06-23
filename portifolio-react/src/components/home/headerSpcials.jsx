@@ -17,8 +17,8 @@ function HeaderSocials(){
                 <i className="fa-brands fa-linkedin"></i>
             </a>
 
-            <a href="https://www.reddit.com/user/Kripthon/" target="_blank" className="home__social-link">
-                <i className="fa-brands fa-reddit"></i>
+            <a href="https://www.github.com/samuxka" target="_blank" className="home__social-link">
+                <i className="fa-brands fa-github"></i>
             </a>
         </div>
     )

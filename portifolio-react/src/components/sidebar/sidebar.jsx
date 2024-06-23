@@ -1,12 +1,9 @@
 import './sidebar.css';
-import Logo from '../../assets/logo.svg'
 
 function Sidebar(){
   return (
     <aside className="aside">
-        <a href="#home" className="nav__logo">
-          <img src={Logo}/>
-        </a>
+        <a href="#home" className="nav__logo">S.</a>
 
       <nav className="nav">
         <div className="nav__menu">
@@ -57,7 +54,7 @@ function Sidebar(){
       </nav>
 
       <div className="nav__footer">
-        <span className="copyright">&copy; 2022 - 2023.</span>
+        <span className="copyright">&copy; 2022 - 2024.</span>
       </div>
     </aside>
   )

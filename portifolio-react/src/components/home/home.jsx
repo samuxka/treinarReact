@@ -11,9 +11,9 @@ function Home() {
                 <img src={Me} className='home__img'/>
                 <h1 className="home__name">Samuel Oliveira</h1>
                 <span className="home__education">
-                    <p>Eu sou <span className='type__effect'>
+                    <p>Eu sou<span className='type__effect'>
                     <Typewriter
-                        words={['desenvolvedor Javascript...', 'desenvolvedor Python...', 'o...', 'o seu proximo dev backend!']}
+                        words={[' desenvolvedor Javascript...', ' desenvolvedor Python...', '.....', ' o seu proximo desenvolvedor!']}
                         loop={Infinity}
                         cursor
                         cursorStyle='|'

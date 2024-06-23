@@ -4,10 +4,11 @@
 /* Variable area */
 :root{
   /* Color area */
-  --first-color: #ff4d61;
-  --title-color: #353252;
+  --first-color: #00CCff;
+  --second-color: #197bbd;
+  --title-color: #312f44;
   --text-color: #5e5c7f;
-  --body-color: #f9f7fd;
+  --body-color: #f0f0f0;
   --container-color: #ffffff;
 
   /* Font size area */
@@ -115,6 +116,7 @@ img{
 
 .section__title{
   font-size: var(--h1-font-size);
+  margin-top: 5rem;
   margin-left: 0.875rem;
   font-weight: var(--font-bold);
   position: relative;
