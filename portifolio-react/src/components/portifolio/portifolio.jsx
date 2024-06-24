@@ -12,7 +12,7 @@ function Portifolio(){
         setItems(updatedItems)
     }
     return(
-        <section className="work container section" id="work">
+        <section className="work container section" id="portifolio">
             <h2 className="section__title">Ultimos trabalhos</h2>
 
             <div className="work__filters">

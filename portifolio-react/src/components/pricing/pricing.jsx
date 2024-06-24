@@ -20,7 +20,7 @@ function Pricing(){
                 <a href="" className="btn">Get Started</a>
             </div>
 
-            <div className="pricing__item">{/* best */}
+            <div className="pricing__item best">{/* best */}
                 <span className="badge">Recommended</span>
                 <img src={Image2} className="pricing__img" />
                 <h3 className="pricing__plan">Medium</h3>
