@@ -1,14 +1,17 @@
 .pricing__container{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    gap: 20px;
 }
 
 .pricing__item{
     padding: 1.875rem 2.5rem;
-    background-color: var(--container--color);
+    background-color: var(--container);
     text-align: center;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+    cursor: pointer;
+    transition: .3s;
 }
 
 .pricing__plan{
@@ -43,23 +46,46 @@
     margin-top: 1.25rem;
 }
 
-.pricing__item.best{
+/* .pricing__item.best{
     padding: 3.4rem 2.5rem;
     position: relative;
     z-index: 1;
-}
+} */
 
 .badge{
     position: absolute;
     left: 0;
-    top: 2.6rem;
+    top: 2.82rem;
     color: #fff;
-    background-color: #6c6ce5;
-    transform: rotate(-90deg);
+    background-color: var(--first-color);
+    transform: rotate(-90deg) scale(1);
     padding: .25rem .75rem;
     font-size: var(--small-font-size);
     border-top-left-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+.pricing__item:hover{
+    transform: translateY(-10px);
+}
+
+.pricing__item:hover .badge{
+    animation: pulse 2s infinite;
+    opacity: 1;
+}
+
+@keyframes pulse{
+    0%{
+        transform: rotate(-90deg) rotate(1);
+    }
+    50%{
+        transform: rotate(-90deg) scale(1.1);
+    }
+    100%{
+        transform: rotate(-90deg) scale(1);
+    }
 }

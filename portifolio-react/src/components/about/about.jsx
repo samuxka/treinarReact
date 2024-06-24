@@ -42,7 +42,7 @@ function About(){
                             </div>
                         </div>
 
-                        <div className="skills__data">
+                        {/* <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className="skills__name">Node.Js</h3>
                                 <span className="skills__number">100%</span>
@@ -51,7 +51,7 @@ function About(){
                             <div className="skills__bar">
                                 <span className="skills__percentage nodejs"></span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="skills__data">
                             <div className="skills__titles">

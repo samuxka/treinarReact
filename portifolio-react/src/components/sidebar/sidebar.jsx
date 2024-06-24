@@ -2,7 +2,8 @@ import './sidebar.css';
 
 function Sidebar(){
   return (
-    <aside className="aside">
+    <>
+      <aside className="aside">
         <a href="#home" className="nav__logo">S.</a>
 
       <nav className="nav">
@@ -57,6 +58,11 @@ function Sidebar(){
         <span className="copyright">&copy; 2022 - 2024.</span>
       </div>
     </aside>
+
+    <div className="nav__toggle">
+      <i className="icon-menu"></i>
+    </div>
+    </>
   )
 }
 

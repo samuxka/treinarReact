@@ -5,7 +5,6 @@ import Services from './components/services/services'
 import Portifolio from './components/portifolio/portifolio'
 import Pricing from './components/pricing/pricing'
 import Testimonials from './components/testmonials/testmonials'
-import Blog from './components/blog/blog'
 import Contact from './components/contact/contact'
 import './App.css'
 
@@ -20,7 +19,6 @@ function App() {
         <Portifolio />
         <Pricing />
         <Testimonials />
-        <Blog />
         <Contact />
       </main>
     </>

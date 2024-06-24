@@ -6,7 +6,7 @@ function AboutBox(){
 
                 <div>
                     <h3 className="about__title">10+</h3>
-                    <apan className="about__subtitle">Pojetos completos</apan>
+                    <span className="about__subtitle">Pojetos completos</span>
                 </div>
             </div>
 
@@ -15,7 +15,7 @@ function AboutBox(){
 
                 <div>
                     <h3 className="about__title">2720</h3>
-                    <apan className="about__subtitle">Garrafas de café</apan>
+                    <span className="about__subtitle">Garrafas de café</span>
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ function AboutBox(){
 
                 <div>
                     <h3 className="about__title">90+</h3>
-                    <apan className="about__subtitle">Page speed</apan>
+                    <span className="about__subtitle">Page speed</span>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ function AboutBox(){
 
                 <div>
                     <h3 className="about__title">20+</h3>
-                    <apan className="about__subtitle">Automações</apan>
+                    <span className="about__subtitle">Automações</span>
                 </div>
             </div>
         </div>
