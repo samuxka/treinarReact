@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <Sidebar/>
+      <Sidebar />
       <main className="main">
         <Home />
         <About />
